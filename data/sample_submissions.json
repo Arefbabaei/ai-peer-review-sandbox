@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "assignment_title": "Explain the difference between supervised and unsupervised learning.",
+    "submission": "Supervised learning uses labeled data, while unsupervised learning works with unlabeled data. In supervised learning we train a model to map inputs to outputs, but in unsupervised learning the model finds structure, like clusters, in the data.",
+    "rubric": {
+      "clarity": "Is the answer easy to understand?",
+      "technical_accuracy": "Are the concepts described correctly?",
+      "completeness": "Does the answer cover the main points?"
+    }
+  },
+  {
+    "id": 2,
+    "assignment_title": "Describe what overfitting is and how it can be reduced.",
+    "submission": "Overfitting happens when a model memorizes the training data and does not generalize well. It can be reduced with regularization, cross-validation, or using more data.",
+    "rubric": {
+      "clarity": "Is the explanation understandable?",
+      "technical_accuracy": "Is overfitting defined correctly?",
+      "completeness": "Are at least two mitigation methods mentioned?"
+    }
+  },
+  {
+    "id": 3,
+    "assignment_title": "Explain the role of a loss function in machine learning.",
+    "submission": "The loss function measures the difference between model predictions and true labels. Training tries to minimize this value by updating the model parameters.",
+    "rubric": {
+      "clarity": "Is the explanation concise and clear?",
+      "technical_accuracy": "Is the role of the loss function correctly described?",
+      "completeness": "Does the answer mention prediction, true labels, and optimization?"
+    }
+  }
+]
