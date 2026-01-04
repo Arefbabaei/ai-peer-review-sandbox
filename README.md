@@ -36,3 +36,15 @@ python src/main.py
 
 # Compute average scores from the generated feedback
 python src/evaluation.py
+## Example output
+
+After running `python src/main.py`, the system produces rubric-based scores and feedback such as:
+
+- Clarity: 4
+- Technical accuracy: 5
+- Completeness: 4
+
+Sample comment:
+> "The response is generally clear and easy to follow. Key technical concepts appear to be described correctly. Overall, the answer covers the main points requested in the prompt."
+
+This demonstrates how AI-assisted feedback could support peer review and instructional workflows.
